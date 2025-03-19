@@ -62,6 +62,7 @@ function warmup2() {
             console.log(score);
             html += `<li>${score}</li>`;
         });
+
         html += '</ul>';
         document.querySelector('#content-2').innerHTML = html;
 

@@ -20,7 +20,7 @@ export const getRandomScores = (amount) => {
     for (let i = 0; i < amount; i++) {
         scores.push(Math.round(Math.random() * 20));
     }
-    return scores;
+
 }
 
 export const getStudentJSON = () => {
